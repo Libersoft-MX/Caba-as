@@ -1,0 +1,11 @@
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\bin\Debug\Cabañas.exe.config
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\bin\Debug\Cabañas.exe
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\bin\Debug\Cabañas.pdb
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\bin\Debug\Cabañas.xml
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\obj\Debug\Cabañas.Form1.resources
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\obj\Debug\Cabañas.Resources.resources
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\obj\Debug\Cabañas.vbproj.GenerateResource.Cache
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\obj\Debug\Cabañas.exe
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\obj\Debug\Cabañas.xml
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\obj\Debug\Cabañas.pdb
+C:\Users\Libersoft\Documents\GitUP\Cabañas\Cabañas\Cabañas\obj\Debug\Cabañas.vbprojResolveAssemblyReference.cache
