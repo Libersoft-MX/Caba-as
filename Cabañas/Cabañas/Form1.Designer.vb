@@ -26,12 +26,11 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.Fecha = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Total = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Ultima_Visita = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -57,40 +56,6 @@ Partial Class Form1
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Tp5 = New System.Windows.Forms.TabPage()
-        Me.Reportes = New System.Windows.Forms.TabControl()
-        Me.Reporte_General = New System.Windows.Forms.TabPage()
-        Me.Reporte_Cabanas = New System.Windows.Forms.TabPage()
-        Me.Tp4 = New System.Windows.Forms.TabPage()
-        Me.FlowLayoutPanel3 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.Panel15 = New System.Windows.Forms.Panel()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.Tp3 = New System.Windows.Forms.TabPage()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Tp2 = New System.Windows.Forms.TabPage()
         Me.Tc1_1 = New System.Windows.Forms.TabControl()
         Me.Reservacion_Crear = New System.Windows.Forms.TabPage()
@@ -119,6 +84,12 @@ Partial Class Form1
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Panel56 = New System.Windows.Forms.Panel()
+        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
+        Me.Label139 = New System.Windows.Forms.Label()
+        Me.Panel55 = New System.Windows.Forms.Panel()
+        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
+        Me.Label138 = New System.Windows.Forms.Label()
         Me.Panel10 = New System.Windows.Forms.Panel()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -161,6 +132,7 @@ Partial Class Form1
         Me.Button9 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel4 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel21 = New System.Windows.Forms.Panel()
+        Me.Button13 = New System.Windows.Forms.Button()
         Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.Label62 = New System.Windows.Forms.Label()
         Me.Panel22 = New System.Windows.Forms.Panel()
@@ -211,6 +183,9 @@ Partial Class Form1
         Me.Button12 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel5 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel33 = New System.Windows.Forms.Panel()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.Label61 = New System.Windows.Forms.Label()
         Me.Panel34 = New System.Windows.Forms.Panel()
         Me.TextBox20 = New System.Windows.Forms.TextBox()
         Me.Label85 = New System.Windows.Forms.Label()
@@ -241,28 +216,6 @@ Partial Class Form1
         Me.ComboBox10 = New System.Windows.Forms.ComboBox()
         Me.Label94 = New System.Windows.Forms.Label()
         Me.Reservacion_Eliminar = New System.Windows.Forms.TabPage()
-        Me.Tp1 = New System.Windows.Forms.TabPage()
-        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.Tc1 = New System.Windows.Forms.TabControl()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.Label61 = New System.Windows.Forms.Label()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
         Me.Panel43 = New System.Windows.Forms.Panel()
         Me.Label83 = New System.Windows.Forms.Label()
         Me.Label84 = New System.Windows.Forms.Label()
@@ -277,6 +230,7 @@ Partial Class Form1
         Me.Label103 = New System.Windows.Forms.Label()
         Me.Label104 = New System.Windows.Forms.Label()
         Me.Panel44 = New System.Windows.Forms.Panel()
+        Me.Button16 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel6 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel45 = New System.Windows.Forms.Panel()
@@ -312,17 +266,49 @@ Partial Class Form1
         Me.Panel54 = New System.Windows.Forms.Panel()
         Me.Label136 = New System.Windows.Forms.Label()
         Me.Label137 = New System.Windows.Forms.Label()
-        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Tp1 = New System.Windows.Forms.TabPage()
+        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Tc1 = New System.Windows.Forms.TabControl()
+        Me.Tp3 = New System.Windows.Forms.TabPage()
+        Me.Tp4 = New System.Windows.Forms.TabPage()
+        Me.Menu = New System.Windows.Forms.MenuStrip()
+        Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BloquearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReservaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CrearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CancelarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CancelarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IngresosEgresosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CabañasToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IngresosDelDiaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IngresosPorPeriodoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IngresosPorCabañaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConfiguraciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MonedaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ModificarTasaDeCambioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CabañasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PreciosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1.SuspendLayout()
-        Me.Tp5.SuspendLayout()
-        Me.Reportes.SuspendLayout()
-        Me.Tp4.SuspendLayout()
-        Me.FlowLayoutPanel3.SuspendLayout()
-        Me.Panel15.SuspendLayout()
-        Me.Panel14.SuspendLayout()
-        Me.Tp3.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tp2.SuspendLayout()
         Me.Tc1_1.SuspendLayout()
         Me.Reservacion_Crear.SuspendLayout()
@@ -332,6 +318,8 @@ Partial Class Form1
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.Panel56.SuspendLayout()
+        Me.Panel55.SuspendLayout()
         Me.Panel10.SuspendLayout()
         Me.Panel11.SuspendLayout()
         Me.Panel16.SuspendLayout()
@@ -372,19 +360,6 @@ Partial Class Form1
         Me.Panel41.SuspendLayout()
         Me.Panel42.SuspendLayout()
         Me.Reservacion_Eliminar.SuspendLayout()
-        Me.Tp1.SuspendLayout()
-        Me.FlowLayoutPanel2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox2.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox3.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox4.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox5.SuspendLayout()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Tc1.SuspendLayout()
         Me.Panel43.SuspendLayout()
         Me.Panel44.SuspendLayout()
         Me.FlowLayoutPanel6.SuspendLayout()
@@ -398,6 +373,20 @@ Partial Class Form1
         Me.Panel52.SuspendLayout()
         Me.Panel53.SuspendLayout()
         Me.Panel54.SuspendLayout()
+        Me.Tp1.SuspendLayout()
+        Me.FlowLayoutPanel2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox3.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox4.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox5.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Tc1.SuspendLayout()
+        Me.Menu.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -405,7 +394,7 @@ Partial Class Form1
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label1.Font = New System.Drawing.Font("Edwardian Script ITC", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Location = New System.Drawing.Point(0, 36)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(1146, 100)
         Me.Label1.TabIndex = 0
@@ -417,7 +406,7 @@ Partial Class Form1
         Me.Label2.BackColor = System.Drawing.Color.Khaki
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label2.Font = New System.Drawing.Font("Arial", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(0, 100)
+        Me.Label2.Location = New System.Drawing.Point(0, 136)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(1146, 80)
         Me.Label2.TabIndex = 1
@@ -427,28 +416,27 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.Button8)
+        Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Fecha)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Button5)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel1.Location = New System.Drawing.Point(0, 180)
+        Me.Panel1.Location = New System.Drawing.Point(0, 216)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(207, 517)
+        Me.Panel1.Size = New System.Drawing.Size(207, 534)
         Me.Panel1.TabIndex = 4
         '
-        'Button8
+        'Button4
         '
-        Me.Button8.Font = New System.Drawing.Font("Brush Script MT", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(6, 188)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(195, 49)
-        Me.Button8.TabIndex = 11
-        Me.Button8.Text = "Moneda"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.Button4.Font = New System.Drawing.Font("Monotype Corsiva", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(6, 243)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(195, 49)
+        Me.Button4.TabIndex = 11
+        Me.Button4.Text = "Salir"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'Fecha
         '
@@ -457,7 +445,7 @@ Partial Class Form1
         Me.Fecha.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.Fecha.Font = New System.Drawing.Font("Brush Script MT", 21.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Fecha.ForeColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Fecha.Location = New System.Drawing.Point(0, 475)
+        Me.Fecha.Location = New System.Drawing.Point(0, 492)
         Me.Fecha.Name = "Fecha"
         Me.Fecha.Size = New System.Drawing.Size(207, 42)
         Me.Fecha.TabIndex = 10
@@ -466,7 +454,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Brush Script MT", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Monotype Corsiva", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(6, 23)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(195, 49)
@@ -476,7 +464,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Font = New System.Drawing.Font("Brush Script MT", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Monotype Corsiva", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(6, 78)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(195, 49)
@@ -486,32 +474,22 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Font = New System.Drawing.Font("Brush Script MT", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Monotype Corsiva", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(6, 133)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(195, 49)
         Me.Button3.TabIndex = 7
-        Me.Button3.Text = "Clientes"
+        Me.Button3.Text = "Pago / Abono"
         Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Font = New System.Drawing.Font("Brush Script MT", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(6, 242)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(195, 49)
-        Me.Button4.TabIndex = 8
-        Me.Button4.Text = "Reportes"
-        Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
-        Me.Button5.Font = New System.Drawing.Font("Brush Script MT", 21.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(6, 298)
+        Me.Button5.Font = New System.Drawing.Font("Monotype Corsiva", 18.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Location = New System.Drawing.Point(6, 188)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(195, 49)
         Me.Button5.TabIndex = 9
-        Me.Button5.Text = "Salir"
+        Me.Button5.Text = "Egreso de efectivo"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Total
@@ -721,354 +699,6 @@ Partial Class Form1
         Me.TextBox3.TabIndex = 3
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Tp5
-        '
-        Me.Tp5.Controls.Add(Me.Reportes)
-        Me.Tp5.Location = New System.Drawing.Point(4, 22)
-        Me.Tp5.Name = "Tp5"
-        Me.Tp5.Padding = New System.Windows.Forms.Padding(3)
-        Me.Tp5.Size = New System.Drawing.Size(931, 491)
-        Me.Tp5.TabIndex = 3
-        Me.Tp5.Text = "Reportes"
-        Me.Tp5.UseVisualStyleBackColor = True
-        '
-        'Reportes
-        '
-        Me.Reportes.Controls.Add(Me.Reporte_General)
-        Me.Reportes.Controls.Add(Me.Reporte_Cabanas)
-        Me.Reportes.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Reportes.Location = New System.Drawing.Point(3, 3)
-        Me.Reportes.Name = "Reportes"
-        Me.Reportes.SelectedIndex = 0
-        Me.Reportes.Size = New System.Drawing.Size(925, 485)
-        Me.Reportes.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
-        Me.Reportes.TabIndex = 1
-        '
-        'Reporte_General
-        '
-        Me.Reporte_General.BackColor = System.Drawing.Color.BurlyWood
-        Me.Reporte_General.Location = New System.Drawing.Point(4, 22)
-        Me.Reporte_General.Name = "Reporte_General"
-        Me.Reporte_General.Padding = New System.Windows.Forms.Padding(3)
-        Me.Reporte_General.Size = New System.Drawing.Size(917, 459)
-        Me.Reporte_General.TabIndex = 0
-        Me.Reporte_General.Text = "General"
-        '
-        'Reporte_Cabanas
-        '
-        Me.Reporte_Cabanas.BackColor = System.Drawing.Color.BurlyWood
-        Me.Reporte_Cabanas.Location = New System.Drawing.Point(4, 22)
-        Me.Reporte_Cabanas.Name = "Reporte_Cabanas"
-        Me.Reporte_Cabanas.Padding = New System.Windows.Forms.Padding(3)
-        Me.Reporte_Cabanas.Size = New System.Drawing.Size(917, 459)
-        Me.Reporte_Cabanas.TabIndex = 1
-        Me.Reporte_Cabanas.Text = "Por Cabañas"
-        '
-        'Tp4
-        '
-        Me.Tp4.Controls.Add(Me.FlowLayoutPanel3)
-        Me.Tp4.Location = New System.Drawing.Point(4, 22)
-        Me.Tp4.Name = "Tp4"
-        Me.Tp4.Padding = New System.Windows.Forms.Padding(3)
-        Me.Tp4.Size = New System.Drawing.Size(931, 491)
-        Me.Tp4.TabIndex = 4
-        Me.Tp4.Text = "Moneda"
-        Me.Tp4.UseVisualStyleBackColor = True
-        '
-        'FlowLayoutPanel3
-        '
-        Me.FlowLayoutPanel3.AutoScroll = True
-        Me.FlowLayoutPanel3.BackgroundImage = Global.Cabañas.My.Resources.Resources._11_textura_madera
-        Me.FlowLayoutPanel3.Controls.Add(Me.Label47)
-        Me.FlowLayoutPanel3.Controls.Add(Me.Panel15)
-        Me.FlowLayoutPanel3.Controls.Add(Me.Panel14)
-        Me.FlowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel3.Location = New System.Drawing.Point(3, 3)
-        Me.FlowLayoutPanel3.Name = "FlowLayoutPanel3"
-        Me.FlowLayoutPanel3.Size = New System.Drawing.Size(925, 485)
-        Me.FlowLayoutPanel3.TabIndex = 1
-        '
-        'Label47
-        '
-        Me.Label47.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label47.Font = New System.Drawing.Font("Arial", 21.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.ForeColor = System.Drawing.Color.White
-        Me.Label47.Location = New System.Drawing.Point(3, 0)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(925, 58)
-        Me.Label47.TabIndex = 2
-        Me.Label47.Text = "Tasa de cambio "
-        Me.Label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Panel15
-        '
-        Me.Panel15.BackColor = System.Drawing.Color.AntiqueWhite
-        Me.Panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel15.Controls.Add(Me.TextBox9)
-        Me.Panel15.Controls.Add(Me.Label48)
-        Me.Panel15.Controls.Add(Me.Label49)
-        Me.Panel15.Controls.Add(Me.Label50)
-        Me.Panel15.Location = New System.Drawing.Point(3, 61)
-        Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(409, 134)
-        Me.Panel15.TabIndex = 3
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox9.Location = New System.Drawing.Point(260, 79)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(89, 35)
-        Me.TextBox9.TabIndex = 3
-        Me.TextBox9.Text = "15"
-        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label48
-        '
-        Me.Label48.Font = New System.Drawing.Font("Arial", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label48.Location = New System.Drawing.Point(14, 79)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(200, 32)
-        Me.Label48.TabIndex = 2
-        Me.Label48.Text = "1            ="
-        Me.Label48.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label49
-        '
-        Me.Label49.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label49.Font = New System.Drawing.Font("Arial", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(218, 21)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(175, 36)
-        Me.Label49.TabIndex = 1
-        Me.Label49.Text = "Pesos MXN"
-        Me.Label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label50
-        '
-        Me.Label50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label50.Font = New System.Drawing.Font("Arial", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(16, 21)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(175, 36)
-        Me.Label50.TabIndex = 0
-        Me.Label50.Text = "Dolar"
-        Me.Label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Panel14
-        '
-        Me.Panel14.BackColor = System.Drawing.Color.AntiqueWhite
-        Me.Panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel14.Controls.Add(Me.TextBox8)
-        Me.Panel14.Controls.Add(Me.Label44)
-        Me.Panel14.Controls.Add(Me.Label45)
-        Me.Panel14.Controls.Add(Me.Label46)
-        Me.Panel14.Location = New System.Drawing.Point(418, 61)
-        Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(409, 134)
-        Me.Panel14.TabIndex = 5
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox8.Location = New System.Drawing.Point(260, 79)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(89, 35)
-        Me.TextBox8.TabIndex = 3
-        Me.TextBox8.Text = "16"
-        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label44
-        '
-        Me.Label44.Font = New System.Drawing.Font("Arial", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label44.Location = New System.Drawing.Point(14, 79)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(200, 32)
-        Me.Label44.TabIndex = 2
-        Me.Label44.Text = "1            ="
-        Me.Label44.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label45
-        '
-        Me.Label45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label45.Font = New System.Drawing.Font("Arial", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(218, 21)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(175, 36)
-        Me.Label45.TabIndex = 1
-        Me.Label45.Text = "Pesos MXN"
-        Me.Label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label46
-        '
-        Me.Label46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label46.Font = New System.Drawing.Font("Arial", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(16, 21)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(175, 36)
-        Me.Label46.TabIndex = 0
-        Me.Label46.Text = "Euro"
-        Me.Label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Tp3
-        '
-        Me.Tp3.BackgroundImage = Global.Cabañas.My.Resources.Resources._11_textura_madera
-        Me.Tp3.Controls.Add(Me.Panel2)
-        Me.Tp3.Controls.Add(Me.DataGridView1)
-        Me.Tp3.Location = New System.Drawing.Point(4, 22)
-        Me.Tp3.Name = "Tp3"
-        Me.Tp3.Padding = New System.Windows.Forms.Padding(3)
-        Me.Tp3.Size = New System.Drawing.Size(931, 491)
-        Me.Tp3.TabIndex = 2
-        Me.Tp3.Text = "Clientes"
-        Me.Tp3.ToolTipText = "3"
-        Me.Tp3.UseVisualStyleBackColor = True
-        '
-        'Panel2
-        '
-        Me.Panel2.Controls.Add(Me.ComboBox5)
-        Me.Panel2.Controls.Add(Me.ComboBox6)
-        Me.Panel2.Controls.Add(Me.Label13)
-        Me.Panel2.Controls.Add(Me.TextBox7)
-        Me.Panel2.Controls.Add(Me.Label41)
-        Me.Panel2.Controls.Add(Me.Label42)
-        Me.Panel2.Controls.Add(Me.Label43)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel2.Location = New System.Drawing.Point(3, 3)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(925, 136)
-        Me.Panel2.TabIndex = 3
-        '
-        'ComboBox5
-        '
-        Me.ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox5.Font = New System.Drawing.Font("Arial Narrow", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Items.AddRange(New Object() {"Quintana Roo", "Tabasco", "Veracruz"})
-        Me.ComboBox5.Location = New System.Drawing.Point(459, 81)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(183, 31)
-        Me.ComboBox5.TabIndex = 25
-        '
-        'ComboBox6
-        '
-        Me.ComboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox6.Font = New System.Drawing.Font("Arial Narrow", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Items.AddRange(New Object() {"México", "Estados Unidos"})
-        Me.ComboBox6.Location = New System.Drawing.Point(146, 81)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(195, 31)
-        Me.ComboBox6.TabIndex = 24
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.BackColor = System.Drawing.Color.Transparent
-        Me.Label13.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(84, 85)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(62, 22)
-        Me.Label13.TabIndex = 23
-        Me.Label13.Text = "Pais :"
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(146, 41)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(252, 29)
-        Me.TextBox7.TabIndex = 22
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.BackColor = System.Drawing.Color.Transparent
-        Me.Label41.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.ForeColor = System.Drawing.Color.Black
-        Me.Label41.Location = New System.Drawing.Point(54, 44)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(95, 22)
-        Me.Label41.TabIndex = 21
-        Me.Label41.Text = "Nombre :"
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.BackColor = System.Drawing.Color.Transparent
-        Me.Label42.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.ForeColor = System.Drawing.Color.Black
-        Me.Label42.Location = New System.Drawing.Point(370, 85)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(87, 22)
-        Me.Label42.TabIndex = 19
-        Me.Label42.Text = "Estado :"
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.Font = New System.Drawing.Font("Arial", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.ForeColor = System.Drawing.Color.Black
-        Me.Label43.Location = New System.Drawing.Point(16, 8)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(95, 28)
-        Me.Label43.TabIndex = 16
-        Me.Label43.Tag = "xx"
-        Me.Label43.Text = "Filtrar :"
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7})
-        Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.DataGridView1.Location = New System.Drawing.Point(3, 145)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(925, 343)
-        Me.DataGridView1.TabIndex = 2
-        '
-        'DataGridViewTextBoxColumn1
-        '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "Id."
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        Me.DataGridViewTextBoxColumn1.ReadOnly = True
-        '
-        'DataGridViewTextBoxColumn2
-        '
-        Me.DataGridViewTextBoxColumn2.HeaderText = "Nombre"
-        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
-        '
-        'DataGridViewTextBoxColumn3
-        '
-        Me.DataGridViewTextBoxColumn3.HeaderText = "Apellidos"
-        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
-        '
-        'DataGridViewTextBoxColumn4
-        '
-        Me.DataGridViewTextBoxColumn4.HeaderText = "País"
-        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
-        '
-        'DataGridViewTextBoxColumn5
-        '
-        Me.DataGridViewTextBoxColumn5.HeaderText = "Ciudad"
-        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
-        '
-        'DataGridViewTextBoxColumn6
-        '
-        Me.DataGridViewTextBoxColumn6.HeaderText = "Ultima Visita"
-        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
-        '
-        'DataGridViewTextBoxColumn7
-        '
-        Me.DataGridViewTextBoxColumn7.HeaderText = "Total visitas"
-        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
-        '
         'Tp2
         '
         Me.Tp2.BackColor = System.Drawing.Color.White
@@ -1076,7 +706,7 @@ Partial Class Form1
         Me.Tp2.Location = New System.Drawing.Point(4, 22)
         Me.Tp2.Name = "Tp2"
         Me.Tp2.Padding = New System.Windows.Forms.Padding(3)
-        Me.Tp2.Size = New System.Drawing.Size(931, 491)
+        Me.Tp2.Size = New System.Drawing.Size(931, 508)
         Me.Tp2.TabIndex = 1
         Me.Tp2.Text = "Reservaciones"
         Me.Tp2.ToolTipText = "2"
@@ -1091,7 +721,7 @@ Partial Class Form1
         Me.Tc1_1.Location = New System.Drawing.Point(3, 3)
         Me.Tc1_1.Name = "Tc1_1"
         Me.Tc1_1.SelectedIndex = 0
-        Me.Tc1_1.Size = New System.Drawing.Size(925, 485)
+        Me.Tc1_1.Size = New System.Drawing.Size(925, 502)
         Me.Tc1_1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.Tc1_1.TabIndex = 0
         '
@@ -1103,7 +733,7 @@ Partial Class Form1
         Me.Reservacion_Crear.Location = New System.Drawing.Point(4, 22)
         Me.Reservacion_Crear.Name = "Reservacion_Crear"
         Me.Reservacion_Crear.Padding = New System.Windows.Forms.Padding(3)
-        Me.Reservacion_Crear.Size = New System.Drawing.Size(917, 459)
+        Me.Reservacion_Crear.Size = New System.Drawing.Size(917, 476)
         Me.Reservacion_Crear.TabIndex = 0
         Me.Reservacion_Crear.Text = "Crear "
         '
@@ -1124,7 +754,7 @@ Partial Class Form1
         Me.Panel17.Controls.Add(Me.Label27)
         Me.Panel17.Controls.Add(Me.Panel18)
         Me.Panel17.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel17.Location = New System.Drawing.Point(3, 328)
+        Me.Panel17.Location = New System.Drawing.Point(3, 345)
         Me.Panel17.Name = "Panel17"
         Me.Panel17.Size = New System.Drawing.Size(911, 128)
         Me.Panel17.TabIndex = 8
@@ -1299,6 +929,8 @@ Partial Class Form1
         Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel4)
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel3)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Panel56)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Panel55)
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel10)
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel11)
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel16)
@@ -1307,10 +939,10 @@ Partial Class Form1
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel5)
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel6)
         Me.FlowLayoutPanel1.Controls.Add(Me.Panel8)
-        Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 3)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(911, 453)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(911, 372)
         Me.FlowLayoutPanel1.TabIndex = 7
         '
         'Panel4
@@ -1398,12 +1030,76 @@ Partial Class Form1
         Me.Label8.TabIndex = 2
         Me.Label8.Text = "Nombre :"
         '
+        'Panel56
+        '
+        Me.Panel56.BackColor = System.Drawing.Color.Transparent
+        Me.Panel56.Controls.Add(Me.DateTimePicker3)
+        Me.Panel56.Controls.Add(Me.Label139)
+        Me.Panel56.Location = New System.Drawing.Point(3, 125)
+        Me.Panel56.Name = "Panel56"
+        Me.Panel56.Size = New System.Drawing.Size(318, 55)
+        Me.Panel56.TabIndex = 21
+        '
+        'DateTimePicker3
+        '
+        Me.DateTimePicker3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker3.Location = New System.Drawing.Point(172, 13)
+        Me.DateTimePicker3.Name = "DateTimePicker3"
+        Me.DateTimePicker3.Size = New System.Drawing.Size(135, 29)
+        Me.DateTimePicker3.TabIndex = 5
+        '
+        'Label139
+        '
+        Me.Label139.AutoSize = True
+        Me.Label139.BackColor = System.Drawing.Color.Transparent
+        Me.Label139.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label139.ForeColor = System.Drawing.Color.Black
+        Me.Label139.Location = New System.Drawing.Point(7, 16)
+        Me.Label139.Name = "Label139"
+        Me.Label139.Size = New System.Drawing.Size(167, 22)
+        Me.Label139.TabIndex = 2
+        Me.Label139.Text = "Fecha Nacimiento:"
+        '
+        'Panel55
+        '
+        Me.Panel55.BackColor = System.Drawing.Color.Transparent
+        Me.Panel55.Controls.Add(Me.ComboBox7)
+        Me.Panel55.Controls.Add(Me.Label138)
+        Me.Panel55.Location = New System.Drawing.Point(327, 125)
+        Me.Panel55.Name = "Panel55"
+        Me.Panel55.Size = New System.Drawing.Size(187, 55)
+        Me.Panel55.TabIndex = 20
+        '
+        'ComboBox7
+        '
+        Me.ComboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox7.Font = New System.Drawing.Font("Arial Narrow", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox7.FormattingEnabled = True
+        Me.ComboBox7.Items.AddRange(New Object() {"Hombre", "Mujer"})
+        Me.ComboBox7.Location = New System.Drawing.Point(72, 12)
+        Me.ComboBox7.Name = "ComboBox7"
+        Me.ComboBox7.Size = New System.Drawing.Size(99, 31)
+        Me.ComboBox7.TabIndex = 4
+        '
+        'Label138
+        '
+        Me.Label138.AutoSize = True
+        Me.Label138.BackColor = System.Drawing.Color.Transparent
+        Me.Label138.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label138.ForeColor = System.Drawing.Color.Black
+        Me.Label138.Location = New System.Drawing.Point(7, 16)
+        Me.Label138.Name = "Label138"
+        Me.Label138.Size = New System.Drawing.Size(64, 22)
+        Me.Label138.TabIndex = 2
+        Me.Label138.Text = "Sexo :"
+        '
         'Panel10
         '
         Me.Panel10.BackColor = System.Drawing.Color.Transparent
         Me.Panel10.Controls.Add(Me.TextBox5)
         Me.Panel10.Controls.Add(Me.Label16)
-        Me.Panel10.Location = New System.Drawing.Point(633, 64)
+        Me.Panel10.Location = New System.Drawing.Point(520, 125)
         Me.Panel10.Name = "Panel10"
         Me.Panel10.Size = New System.Drawing.Size(262, 55)
         Me.Panel10.TabIndex = 13
@@ -1433,7 +1129,7 @@ Partial Class Form1
         Me.Panel11.BackColor = System.Drawing.Color.Transparent
         Me.Panel11.Controls.Add(Me.TextBox6)
         Me.Panel11.Controls.Add(Me.Label17)
-        Me.Panel11.Location = New System.Drawing.Point(3, 125)
+        Me.Panel11.Location = New System.Drawing.Point(3, 186)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(287, 55)
         Me.Panel11.TabIndex = 14
@@ -1463,7 +1159,7 @@ Partial Class Form1
         Me.Panel16.BackColor = System.Drawing.Color.Transparent
         Me.Panel16.Controls.Add(Me.TextBox10)
         Me.Panel16.Controls.Add(Me.Label22)
-        Me.Panel16.Location = New System.Drawing.Point(296, 125)
+        Me.Panel16.Location = New System.Drawing.Point(296, 186)
         Me.Panel16.Name = "Panel16"
         Me.Panel16.Size = New System.Drawing.Size(429, 55)
         Me.Panel16.TabIndex = 19
@@ -1493,7 +1189,7 @@ Partial Class Form1
         Me.Panel12.BackColor = System.Drawing.Color.Transparent
         Me.Panel12.Controls.Add(Me.ComboBox2)
         Me.Panel12.Controls.Add(Me.Label18)
-        Me.Panel12.Location = New System.Drawing.Point(3, 186)
+        Me.Panel12.Location = New System.Drawing.Point(3, 247)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(200, 55)
         Me.Panel12.TabIndex = 15
@@ -1526,7 +1222,7 @@ Partial Class Form1
         Me.Panel9.BackColor = System.Drawing.Color.Transparent
         Me.Panel9.Controls.Add(Me.NumericUpDown1)
         Me.Panel9.Controls.Add(Me.Label15)
-        Me.Panel9.Location = New System.Drawing.Point(209, 186)
+        Me.Panel9.Location = New System.Drawing.Point(209, 247)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(225, 55)
         Me.Panel9.TabIndex = 12
@@ -1557,7 +1253,7 @@ Partial Class Form1
         Me.Panel5.BackColor = System.Drawing.Color.Transparent
         Me.Panel5.Controls.Add(Me.DateTimePicker1)
         Me.Panel5.Controls.Add(Me.Label12)
-        Me.Panel5.Location = New System.Drawing.Point(440, 186)
+        Me.Panel5.Location = New System.Drawing.Point(440, 247)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(305, 55)
         Me.Panel5.TabIndex = 8
@@ -1588,7 +1284,7 @@ Partial Class Form1
         Me.Panel6.BackColor = System.Drawing.Color.Transparent
         Me.Panel6.Controls.Add(Me.DateTimePicker2)
         Me.Panel6.Controls.Add(Me.Label11)
-        Me.Panel6.Location = New System.Drawing.Point(3, 247)
+        Me.Panel6.Location = New System.Drawing.Point(3, 308)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(289, 55)
         Me.Panel6.TabIndex = 9
@@ -1619,7 +1315,7 @@ Partial Class Form1
         Me.Panel8.BackColor = System.Drawing.Color.Transparent
         Me.Panel8.Controls.Add(Me.ComboBox1)
         Me.Panel8.Controls.Add(Me.Label14)
-        Me.Panel8.Location = New System.Drawing.Point(298, 247)
+        Me.Panel8.Location = New System.Drawing.Point(298, 308)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(278, 55)
         Me.Panel8.TabIndex = 11
@@ -1655,7 +1351,7 @@ Partial Class Form1
         Me.Reservacion_Consultar.Location = New System.Drawing.Point(4, 22)
         Me.Reservacion_Consultar.Name = "Reservacion_Consultar"
         Me.Reservacion_Consultar.Padding = New System.Windows.Forms.Padding(3)
-        Me.Reservacion_Consultar.Size = New System.Drawing.Size(917, 459)
+        Me.Reservacion_Consultar.Size = New System.Drawing.Size(917, 476)
         Me.Reservacion_Consultar.TabIndex = 1
         Me.Reservacion_Consultar.Text = "Consultar"
         '
@@ -1676,7 +1372,7 @@ Partial Class Form1
         Me.Panel19.Controls.Add(Me.Label60)
         Me.Panel19.Controls.Add(Me.Panel20)
         Me.Panel19.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel19.Location = New System.Drawing.Point(3, 328)
+        Me.Panel19.Location = New System.Drawing.Point(3, 345)
         Me.Panel19.Name = "Panel19"
         Me.Panel19.Size = New System.Drawing.Size(911, 128)
         Me.Panel19.TabIndex = 10
@@ -1856,7 +1552,7 @@ Partial Class Form1
         Me.FlowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FlowLayoutPanel4.Location = New System.Drawing.Point(3, 3)
         Me.FlowLayoutPanel4.Name = "FlowLayoutPanel4"
-        Me.FlowLayoutPanel4.Size = New System.Drawing.Size(911, 453)
+        Me.FlowLayoutPanel4.Size = New System.Drawing.Size(911, 470)
         Me.FlowLayoutPanel4.TabIndex = 9
         '
         'Panel21
@@ -1869,6 +1565,16 @@ Partial Class Form1
         Me.Panel21.Name = "Panel21"
         Me.Panel21.Size = New System.Drawing.Size(609, 55)
         Me.Panel21.TabIndex = 6
+        '
+        'Button13
+        '
+        Me.Button13.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.Location = New System.Drawing.Point(517, 13)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(82, 31)
+        Me.Button13.TabIndex = 7
+        Me.Button13.Text = "Buscar"
+        Me.Button13.UseVisualStyleBackColor = True
         '
         'TextBox12
         '
@@ -2219,7 +1925,7 @@ Partial Class Form1
         Me.Reservacion_Editar.Controls.Add(Me.FlowLayoutPanel5)
         Me.Reservacion_Editar.Location = New System.Drawing.Point(4, 22)
         Me.Reservacion_Editar.Name = "Reservacion_Editar"
-        Me.Reservacion_Editar.Size = New System.Drawing.Size(917, 459)
+        Me.Reservacion_Editar.Size = New System.Drawing.Size(917, 476)
         Me.Reservacion_Editar.TabIndex = 2
         Me.Reservacion_Editar.Text = "Editar"
         '
@@ -2240,7 +1946,7 @@ Partial Class Form1
         Me.Panel31.Controls.Add(Me.Label82)
         Me.Panel31.Controls.Add(Me.Panel32)
         Me.Panel31.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel31.Location = New System.Drawing.Point(0, 331)
+        Me.Panel31.Location = New System.Drawing.Point(0, 348)
         Me.Panel31.Name = "Panel31"
         Me.Panel31.Size = New System.Drawing.Size(917, 128)
         Me.Panel31.TabIndex = 10
@@ -2426,7 +2132,7 @@ Partial Class Form1
         Me.FlowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FlowLayoutPanel5.Location = New System.Drawing.Point(0, 0)
         Me.FlowLayoutPanel5.Name = "FlowLayoutPanel5"
-        Me.FlowLayoutPanel5.Size = New System.Drawing.Size(917, 459)
+        Me.FlowLayoutPanel5.Size = New System.Drawing.Size(917, 476)
         Me.FlowLayoutPanel5.TabIndex = 9
         '
         'Panel33
@@ -2439,6 +2145,36 @@ Partial Class Form1
         Me.Panel33.Name = "Panel33"
         Me.Panel33.Size = New System.Drawing.Size(619, 55)
         Me.Panel33.TabIndex = 6
+        '
+        'Button14
+        '
+        Me.Button14.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.Location = New System.Drawing.Point(529, 13)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(82, 31)
+        Me.Button14.TabIndex = 9
+        Me.Button14.Text = "Buscar"
+        Me.Button14.UseVisualStyleBackColor = True
+        '
+        'TextBox13
+        '
+        Me.TextBox13.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox13.Location = New System.Drawing.Point(278, 13)
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(243, 29)
+        Me.TextBox13.TabIndex = 8
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.BackColor = System.Drawing.Color.Transparent
+        Me.Label61.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.ForeColor = System.Drawing.Color.Black
+        Me.Label61.Location = New System.Drawing.Point(4, 16)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(268, 22)
+        Me.Label61.TabIndex = 7
+        Me.Label61.Text = "Nombre ó Reservación No. :"
         '
         'Panel34
         '
@@ -2748,296 +2484,9 @@ Partial Class Form1
         Me.Reservacion_Eliminar.Controls.Add(Me.FlowLayoutPanel6)
         Me.Reservacion_Eliminar.Location = New System.Drawing.Point(4, 22)
         Me.Reservacion_Eliminar.Name = "Reservacion_Eliminar"
-        Me.Reservacion_Eliminar.Size = New System.Drawing.Size(917, 459)
+        Me.Reservacion_Eliminar.Size = New System.Drawing.Size(917, 476)
         Me.Reservacion_Eliminar.TabIndex = 3
         Me.Reservacion_Eliminar.Text = "Eliminar"
-        '
-        'Tp1
-        '
-        Me.Tp1.BackColor = System.Drawing.Color.White
-        Me.Tp1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Tp1.Controls.Add(Me.FlowLayoutPanel2)
-        Me.Tp1.Font = New System.Drawing.Font("Monotype Corsiva", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Tp1.Location = New System.Drawing.Point(4, 22)
-        Me.Tp1.Name = "Tp1"
-        Me.Tp1.Padding = New System.Windows.Forms.Padding(3)
-        Me.Tp1.Size = New System.Drawing.Size(931, 491)
-        Me.Tp1.TabIndex = 0
-        Me.Tp1.Text = "Inicio"
-        Me.Tp1.ToolTipText = "1"
-        '
-        'FlowLayoutPanel2
-        '
-        Me.FlowLayoutPanel2.AutoScroll = True
-        Me.FlowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.FlowLayoutPanel2.BackgroundImage = CType(resources.GetObject("FlowLayoutPanel2.BackgroundImage"), System.Drawing.Image)
-        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox1)
-        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox2)
-        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox3)
-        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox4)
-        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox5)
-        Me.FlowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(3, 3)
-        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(925, 485)
-        Me.FlowLayoutPanel2.TabIndex = 5
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.PictureBox1)
-        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.GroupBox1.Location = New System.Drawing.Point(3, 3)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(206, 214)
-        Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Disponible"
-        '
-        'Label3
-        '
-        Me.Label3.BackColor = System.Drawing.Color.Teal
-        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(3, 178)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(200, 33)
-        Me.Label3.TabIndex = 1
-        Me.Label3.Text = "Coba"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 25)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(200, 186)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Controls.Add(Me.PictureBox2)
-        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.ForeColor = System.Drawing.Color.White
-        Me.GroupBox2.Location = New System.Drawing.Point(215, 3)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(206, 214)
-        Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Disponible"
-        '
-        'Label4
-        '
-        Me.Label4.BackColor = System.Drawing.Color.Teal
-        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(3, 178)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(200, 33)
-        Me.Label4.TabIndex = 1
-        Me.Label4.Text = "Bacalar"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(3, 25)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(200, 186)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GroupBox3.Controls.Add(Me.Label5)
-        Me.GroupBox3.Controls.Add(Me.PictureBox3)
-        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.ForeColor = System.Drawing.Color.White
-        Me.GroupBox3.Location = New System.Drawing.Point(427, 3)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(206, 214)
-        Me.GroupBox3.TabIndex = 2
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Disponible"
-        '
-        'Label5
-        '
-        Me.Label5.BackColor = System.Drawing.Color.Teal
-        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label5.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(3, 178)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(200, 33)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "Loltum"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(3, 25)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(200, 186)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 0
-        Me.PictureBox3.TabStop = False
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GroupBox4.Controls.Add(Me.Label6)
-        Me.GroupBox4.Controls.Add(Me.PictureBox4)
-        Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox4.ForeColor = System.Drawing.Color.White
-        Me.GroupBox4.Location = New System.Drawing.Point(639, 3)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(206, 214)
-        Me.GroupBox4.TabIndex = 3
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Disponible"
-        '
-        'Label6
-        '
-        Me.Label6.BackColor = System.Drawing.Color.Teal
-        Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label6.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(3, 178)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(200, 33)
-        Me.Label6.TabIndex = 1
-        Me.Label6.Text = "Uxmal"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.PictureBox4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(3, 25)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(200, 186)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 0
-        Me.PictureBox4.TabStop = False
-        '
-        'GroupBox5
-        '
-        Me.GroupBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GroupBox5.Controls.Add(Me.Label7)
-        Me.GroupBox5.Controls.Add(Me.PictureBox5)
-        Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox5.ForeColor = System.Drawing.Color.White
-        Me.GroupBox5.Location = New System.Drawing.Point(3, 223)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(206, 214)
-        Me.GroupBox5.TabIndex = 4
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Disponible"
-        '
-        'Label7
-        '
-        Me.Label7.BackColor = System.Drawing.Color.Teal
-        Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label7.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(3, 178)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(200, 33)
-        Me.Label7.TabIndex = 1
-        Me.Label7.Text = "Mayab"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.PictureBox5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(3, 25)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(200, 186)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 0
-        Me.PictureBox5.TabStop = False
-        '
-        'Tc1
-        '
-        Me.Tc1.Controls.Add(Me.Tp1)
-        Me.Tc1.Controls.Add(Me.Tp2)
-        Me.Tc1.Controls.Add(Me.Tp3)
-        Me.Tc1.Controls.Add(Me.Tp4)
-        Me.Tc1.Controls.Add(Me.Tp5)
-        Me.Tc1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Tc1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Tc1.Location = New System.Drawing.Point(207, 180)
-        Me.Tc1.Multiline = True
-        Me.Tc1.Name = "Tc1"
-        Me.Tc1.SelectedIndex = 0
-        Me.Tc1.Size = New System.Drawing.Size(939, 517)
-        Me.Tc1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
-        Me.Tc1.TabIndex = 5
-        '
-        'TextBox13
-        '
-        Me.TextBox13.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox13.Location = New System.Drawing.Point(278, 13)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(243, 29)
-        Me.TextBox13.TabIndex = 8
-        '
-        'Label61
-        '
-        Me.Label61.AutoSize = True
-        Me.Label61.BackColor = System.Drawing.Color.Transparent
-        Me.Label61.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.ForeColor = System.Drawing.Color.Black
-        Me.Label61.Location = New System.Drawing.Point(4, 16)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(268, 22)
-        Me.Label61.TabIndex = 7
-        Me.Label61.Text = "Nombre ó Reservación No. :"
-        '
-        'Button13
-        '
-        Me.Button13.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(517, 13)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(82, 31)
-        Me.Button13.TabIndex = 7
-        Me.Button13.Text = "Buscar"
-        Me.Button13.UseVisualStyleBackColor = True
-        '
-        'Button14
-        '
-        Me.Button14.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.Location = New System.Drawing.Point(529, 13)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(82, 31)
-        Me.Button14.TabIndex = 9
-        Me.Button14.Text = "Buscar"
-        Me.Button14.UseVisualStyleBackColor = True
         '
         'Panel43
         '
@@ -3056,7 +2505,7 @@ Partial Class Form1
         Me.Panel43.Controls.Add(Me.Label104)
         Me.Panel43.Controls.Add(Me.Panel44)
         Me.Panel43.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel43.Location = New System.Drawing.Point(0, 331)
+        Me.Panel43.Location = New System.Drawing.Point(0, 348)
         Me.Panel43.Name = "Panel43"
         Me.Panel43.Size = New System.Drawing.Size(917, 128)
         Me.Panel43.TabIndex = 12
@@ -3210,6 +2659,16 @@ Partial Class Form1
         Me.Panel44.Size = New System.Drawing.Size(193, 128)
         Me.Panel44.TabIndex = 2
         '
+        'Button16
+        '
+        Me.Button16.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button16.Location = New System.Drawing.Point(5, 5)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(168, 43)
+        Me.Button16.TabIndex = 4
+        Me.Button16.Text = "Eliminar"
+        Me.Button16.UseVisualStyleBackColor = True
+        '
         'Button10
         '
         Me.Button10.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -3237,7 +2696,7 @@ Partial Class Form1
         Me.FlowLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FlowLayoutPanel6.Location = New System.Drawing.Point(0, 0)
         Me.FlowLayoutPanel6.Name = "FlowLayoutPanel6"
-        Me.FlowLayoutPanel6.Size = New System.Drawing.Size(917, 459)
+        Me.FlowLayoutPanel6.Size = New System.Drawing.Size(917, 476)
         Me.FlowLayoutPanel6.TabIndex = 11
         '
         'Panel45
@@ -3603,41 +3062,431 @@ Partial Class Form1
         Me.Label137.TabIndex = 2
         Me.Label137.Text = "Moneda :"
         '
-        'Button16
+        'Tp1
         '
-        Me.Button16.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.Location = New System.Drawing.Point(5, 5)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(168, 43)
-        Me.Button16.TabIndex = 4
-        Me.Button16.Text = "Eliminar"
-        Me.Button16.UseVisualStyleBackColor = True
+        Me.Tp1.BackColor = System.Drawing.Color.White
+        Me.Tp1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Tp1.Controls.Add(Me.FlowLayoutPanel2)
+        Me.Tp1.Font = New System.Drawing.Font("Monotype Corsiva", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Tp1.Location = New System.Drawing.Point(4, 22)
+        Me.Tp1.Name = "Tp1"
+        Me.Tp1.Padding = New System.Windows.Forms.Padding(3)
+        Me.Tp1.Size = New System.Drawing.Size(931, 508)
+        Me.Tp1.TabIndex = 0
+        Me.Tp1.Text = "Inicio"
+        Me.Tp1.ToolTipText = "1"
+        '
+        'FlowLayoutPanel2
+        '
+        Me.FlowLayoutPanel2.AutoScroll = True
+        Me.FlowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.FlowLayoutPanel2.BackgroundImage = CType(resources.GetObject("FlowLayoutPanel2.BackgroundImage"), System.Drawing.Image)
+        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox1)
+        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox2)
+        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox3)
+        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox4)
+        Me.FlowLayoutPanel2.Controls.Add(Me.GroupBox5)
+        Me.FlowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
+        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(925, 502)
+        Me.FlowLayoutPanel2.TabIndex = 5
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.PictureBox1)
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.ForeColor = System.Drawing.Color.White
+        Me.GroupBox1.Location = New System.Drawing.Point(3, 3)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(206, 214)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Disponible"
+        '
+        'Label3
+        '
+        Me.Label3.BackColor = System.Drawing.Color.Teal
+        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label3.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(3, 178)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(200, 33)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "Coba"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 25)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(200, 186)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Controls.Add(Me.PictureBox2)
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.ForeColor = System.Drawing.Color.White
+        Me.GroupBox2.Location = New System.Drawing.Point(215, 3)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(206, 214)
+        Me.GroupBox2.TabIndex = 1
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Disponible"
+        '
+        'Label4
+        '
+        Me.Label4.BackColor = System.Drawing.Color.Teal
+        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label4.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(3, 178)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(200, 33)
+        Me.Label4.TabIndex = 1
+        Me.Label4.Text = "Bacalar"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(3, 25)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(200, 186)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.GroupBox3.Controls.Add(Me.Label5)
+        Me.GroupBox3.Controls.Add(Me.PictureBox3)
+        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox3.ForeColor = System.Drawing.Color.White
+        Me.GroupBox3.Location = New System.Drawing.Point(427, 3)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(206, 214)
+        Me.GroupBox3.TabIndex = 2
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Disponible"
+        '
+        'Label5
+        '
+        Me.Label5.BackColor = System.Drawing.Color.Teal
+        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label5.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(3, 178)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(200, 33)
+        Me.Label5.TabIndex = 1
+        Me.Label5.Text = "Loltum"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(3, 25)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(200, 186)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.GroupBox4.Controls.Add(Me.Label6)
+        Me.GroupBox4.Controls.Add(Me.PictureBox4)
+        Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox4.ForeColor = System.Drawing.Color.White
+        Me.GroupBox4.Location = New System.Drawing.Point(639, 3)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(206, 214)
+        Me.GroupBox4.TabIndex = 3
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Disponible"
+        '
+        'Label6
+        '
+        Me.Label6.BackColor = System.Drawing.Color.Teal
+        Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label6.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.White
+        Me.Label6.Location = New System.Drawing.Point(3, 178)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(200, 33)
+        Me.Label6.TabIndex = 1
+        Me.Label6.Text = "Uxmal"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PictureBox4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(3, 25)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(200, 186)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 0
+        Me.PictureBox4.TabStop = False
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.GroupBox5.Controls.Add(Me.Label7)
+        Me.GroupBox5.Controls.Add(Me.PictureBox5)
+        Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox5.ForeColor = System.Drawing.Color.White
+        Me.GroupBox5.Location = New System.Drawing.Point(3, 223)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(206, 214)
+        Me.GroupBox5.TabIndex = 4
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Disponible"
+        '
+        'Label7
+        '
+        Me.Label7.BackColor = System.Drawing.Color.Teal
+        Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label7.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.White
+        Me.Label7.Location = New System.Drawing.Point(3, 178)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(200, 33)
+        Me.Label7.TabIndex = 1
+        Me.Label7.Text = "Mayab"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PictureBox5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(3, 25)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(200, 186)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 0
+        Me.PictureBox5.TabStop = False
+        '
+        'Tc1
+        '
+        Me.Tc1.Controls.Add(Me.Tp1)
+        Me.Tc1.Controls.Add(Me.Tp2)
+        Me.Tc1.Controls.Add(Me.Tp3)
+        Me.Tc1.Controls.Add(Me.Tp4)
+        Me.Tc1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Tc1.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Tc1.Location = New System.Drawing.Point(207, 216)
+        Me.Tc1.Multiline = True
+        Me.Tc1.Name = "Tc1"
+        Me.Tc1.SelectedIndex = 0
+        Me.Tc1.Size = New System.Drawing.Size(939, 534)
+        Me.Tc1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
+        Me.Tc1.TabIndex = 5
+        '
+        'Tp3
+        '
+        Me.Tp3.BackColor = System.Drawing.Color.BurlyWood
+        Me.Tp3.Location = New System.Drawing.Point(4, 22)
+        Me.Tp3.Name = "Tp3"
+        Me.Tp3.Size = New System.Drawing.Size(931, 508)
+        Me.Tp3.TabIndex = 2
+        Me.Tp3.Text = "Pagos / Abonos"
+        '
+        'Tp4
+        '
+        Me.Tp4.BackColor = System.Drawing.Color.BurlyWood
+        Me.Tp4.Location = New System.Drawing.Point(4, 22)
+        Me.Tp4.Name = "Tp4"
+        Me.Tp4.Size = New System.Drawing.Size(931, 508)
+        Me.Tp4.TabIndex = 3
+        Me.Tp4.Text = "Egresos"
+        '
+        'Menu
+        '
+        Me.Menu.BackColor = System.Drawing.Color.BurlyWood
+        Me.Menu.BackgroundImage = Global.Cabañas.My.Resources.Resources._11_textura_madera
+        Me.Menu.Font = New System.Drawing.Font("Monotype Corsiva", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.ReservaciónToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.ConfiguraciónToolStripMenuItem})
+        Me.Menu.Location = New System.Drawing.Point(0, 0)
+        Me.Menu.Name = "Menu"
+        Me.Menu.Size = New System.Drawing.Size(1146, 36)
+        Me.Menu.TabIndex = 6
+        Me.Menu.Text = "MenuStrip1"
+        '
+        'ArchivoToolStripMenuItem
+        '
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BloquearToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
+        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(99, 32)
+        Me.ArchivoToolStripMenuItem.Text = "Archivo"
+        '
+        'BloquearToolStripMenuItem
+        '
+        Me.BloquearToolStripMenuItem.Name = "BloquearToolStripMenuItem"
+        Me.BloquearToolStripMenuItem.Size = New System.Drawing.Size(168, 32)
+        Me.BloquearToolStripMenuItem.Text = "Bloquear"
+        '
+        'SalirToolStripMenuItem
+        '
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(168, 32)
+        Me.SalirToolStripMenuItem.Text = "Salir"
+        '
+        'ReservaciónToolStripMenuItem
+        '
+        Me.ReservaciónToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarToolStripMenuItem1, Me.CrearToolStripMenuItem, Me.EditarToolStripMenuItem1, Me.CancelarToolStripMenuItem, Me.CancelarToolStripMenuItem1})
+        Me.ReservaciónToolStripMenuItem.Name = "ReservaciónToolStripMenuItem"
+        Me.ReservaciónToolStripMenuItem.Size = New System.Drawing.Size(136, 32)
+        Me.ReservaciónToolStripMenuItem.Text = "Reservación"
+        '
+        'ConsultarToolStripMenuItem1
+        '
+        Me.ConsultarToolStripMenuItem1.Name = "ConsultarToolStripMenuItem1"
+        Me.ConsultarToolStripMenuItem1.Size = New System.Drawing.Size(231, 32)
+        Me.ConsultarToolStripMenuItem1.Text = "Pagos / Abonos"
+        '
+        'CrearToolStripMenuItem
+        '
+        Me.CrearToolStripMenuItem.Name = "CrearToolStripMenuItem"
+        Me.CrearToolStripMenuItem.Size = New System.Drawing.Size(231, 32)
+        Me.CrearToolStripMenuItem.Text = "Crear"
+        '
+        'EditarToolStripMenuItem1
+        '
+        Me.EditarToolStripMenuItem1.Name = "EditarToolStripMenuItem1"
+        Me.EditarToolStripMenuItem1.Size = New System.Drawing.Size(231, 32)
+        Me.EditarToolStripMenuItem1.Text = "Consultar"
+        '
+        'CancelarToolStripMenuItem
+        '
+        Me.CancelarToolStripMenuItem.Name = "CancelarToolStripMenuItem"
+        Me.CancelarToolStripMenuItem.Size = New System.Drawing.Size(231, 32)
+        Me.CancelarToolStripMenuItem.Text = "Editar"
+        '
+        'CancelarToolStripMenuItem1
+        '
+        Me.CancelarToolStripMenuItem1.Name = "CancelarToolStripMenuItem1"
+        Me.CancelarToolStripMenuItem1.Size = New System.Drawing.Size(231, 32)
+        Me.CancelarToolStripMenuItem1.Text = "Cancelar"
+        '
+        'ReportesToolStripMenuItem
+        '
+        Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IngresosEgresosToolStripMenuItem, Me.CabañasToolStripMenuItem2, Me.ClientesToolStripMenuItem})
+        Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
+        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(106, 32)
+        Me.ReportesToolStripMenuItem.Text = "Reportes"
+        '
+        'IngresosEgresosToolStripMenuItem
+        '
+        Me.IngresosEgresosToolStripMenuItem.Name = "IngresosEgresosToolStripMenuItem"
+        Me.IngresosEgresosToolStripMenuItem.Size = New System.Drawing.Size(169, 32)
+        Me.IngresosEgresosToolStripMenuItem.Text = "Egresos  "
+        '
+        'CabañasToolStripMenuItem2
+        '
+        Me.CabañasToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IngresosDelDiaToolStripMenuItem, Me.IngresosPorPeriodoToolStripMenuItem, Me.IngresosPorCabañaToolStripMenuItem})
+        Me.CabañasToolStripMenuItem2.Name = "CabañasToolStripMenuItem2"
+        Me.CabañasToolStripMenuItem2.Size = New System.Drawing.Size(169, 32)
+        Me.CabañasToolStripMenuItem2.Text = "Cabañas"
+        '
+        'IngresosDelDiaToolStripMenuItem
+        '
+        Me.IngresosDelDiaToolStripMenuItem.Name = "IngresosDelDiaToolStripMenuItem"
+        Me.IngresosDelDiaToolStripMenuItem.Size = New System.Drawing.Size(276, 32)
+        Me.IngresosDelDiaToolStripMenuItem.Text = "Ingresos del dia"
+        '
+        'IngresosPorPeriodoToolStripMenuItem
+        '
+        Me.IngresosPorPeriodoToolStripMenuItem.Name = "IngresosPorPeriodoToolStripMenuItem"
+        Me.IngresosPorPeriodoToolStripMenuItem.Size = New System.Drawing.Size(276, 32)
+        Me.IngresosPorPeriodoToolStripMenuItem.Text = "Ingresos por periodo"
+        '
+        'IngresosPorCabañaToolStripMenuItem
+        '
+        Me.IngresosPorCabañaToolStripMenuItem.Name = "IngresosPorCabañaToolStripMenuItem"
+        Me.IngresosPorCabañaToolStripMenuItem.Size = New System.Drawing.Size(276, 32)
+        Me.IngresosPorCabañaToolStripMenuItem.Text = "Ingresos por cabaña"
+        '
+        'ClientesToolStripMenuItem
+        '
+        Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
+        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(169, 32)
+        Me.ClientesToolStripMenuItem.Text = "Clientes"
+        '
+        'ConfiguraciónToolStripMenuItem
+        '
+        Me.ConfiguraciónToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MonedaToolStripMenuItem, Me.CabañasToolStripMenuItem1})
+        Me.ConfiguraciónToolStripMenuItem.Name = "ConfiguraciónToolStripMenuItem"
+        Me.ConfiguraciónToolStripMenuItem.Size = New System.Drawing.Size(157, 32)
+        Me.ConfiguraciónToolStripMenuItem.Text = "Configuración"
+        '
+        'MonedaToolStripMenuItem
+        '
+        Me.MonedaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ModificarTasaDeCambioToolStripMenuItem})
+        Me.MonedaToolStripMenuItem.Name = "MonedaToolStripMenuItem"
+        Me.MonedaToolStripMenuItem.Size = New System.Drawing.Size(162, 32)
+        Me.MonedaToolStripMenuItem.Text = "Moneda"
+        '
+        'ModificarTasaDeCambioToolStripMenuItem
+        '
+        Me.ModificarTasaDeCambioToolStripMenuItem.Name = "ModificarTasaDeCambioToolStripMenuItem"
+        Me.ModificarTasaDeCambioToolStripMenuItem.Size = New System.Drawing.Size(323, 32)
+        Me.ModificarTasaDeCambioToolStripMenuItem.Text = "Modificar tasa de cambio"
+        '
+        'CabañasToolStripMenuItem1
+        '
+        Me.CabañasToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PreciosToolStripMenuItem})
+        Me.CabañasToolStripMenuItem1.Name = "CabañasToolStripMenuItem1"
+        Me.CabañasToolStripMenuItem1.Size = New System.Drawing.Size(162, 32)
+        Me.CabañasToolStripMenuItem1.Text = "Cabañas"
+        '
+        'PreciosToolStripMenuItem
+        '
+        Me.PreciosToolStripMenuItem.Name = "PreciosToolStripMenuItem"
+        Me.PreciosToolStripMenuItem.Size = New System.Drawing.Size(151, 32)
+        Me.PreciosToolStripMenuItem.Text = "Precios"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1146, 697)
+        Me.ClientSize = New System.Drawing.Size(1146, 750)
         Me.Controls.Add(Me.Tc1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Menu)
+        Me.MainMenuStrip = Me.Menu
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Cabañas"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
-        Me.Tp5.ResumeLayout(False)
-        Me.Reportes.ResumeLayout(False)
-        Me.Tp4.ResumeLayout(False)
-        Me.FlowLayoutPanel3.ResumeLayout(False)
-        Me.Panel15.ResumeLayout(False)
-        Me.Panel15.PerformLayout()
-        Me.Panel14.ResumeLayout(False)
-        Me.Panel14.PerformLayout()
-        Me.Tp3.ResumeLayout(False)
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tp2.ResumeLayout(False)
         Me.Tc1_1.ResumeLayout(False)
         Me.Reservacion_Crear.ResumeLayout(False)
@@ -3650,6 +3499,10 @@ Partial Class Form1
         Me.Panel4.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.Panel56.ResumeLayout(False)
+        Me.Panel56.PerformLayout()
+        Me.Panel55.ResumeLayout(False)
+        Me.Panel55.PerformLayout()
         Me.Panel10.ResumeLayout(False)
         Me.Panel10.PerformLayout()
         Me.Panel11.ResumeLayout(False)
@@ -3720,19 +3573,6 @@ Partial Class Form1
         Me.Panel42.ResumeLayout(False)
         Me.Panel42.PerformLayout()
         Me.Reservacion_Eliminar.ResumeLayout(False)
-        Me.Tp1.ResumeLayout(False)
-        Me.FlowLayoutPanel2.ResumeLayout(False)
-        Me.GroupBox1.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox2.ResumeLayout(False)
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox3.ResumeLayout(False)
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox4.ResumeLayout(False)
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox5.ResumeLayout(False)
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Tc1.ResumeLayout(False)
         Me.Panel43.ResumeLayout(False)
         Me.Panel43.PerformLayout()
         Me.Panel44.ResumeLayout(False)
@@ -3757,7 +3597,23 @@ Partial Class Form1
         Me.Panel53.PerformLayout()
         Me.Panel54.ResumeLayout(False)
         Me.Panel54.PerformLayout()
+        Me.Tp1.ResumeLayout(False)
+        Me.FlowLayoutPanel2.ResumeLayout(False)
+        Me.GroupBox1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox2.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox3.ResumeLayout(False)
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox4.ResumeLayout(False)
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox5.ResumeLayout(False)
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Tc1.ResumeLayout(False)
+        Me.Menu.ResumeLayout(False)
+        Me.Menu.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
@@ -3765,11 +3621,8 @@ Partial Class Form1
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Fecha As System.Windows.Forms.Label
-    Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Total As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Ultima_Visita As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Ciudad As System.Windows.Forms.DataGridViewTextBoxColumn
@@ -3794,13 +3647,6 @@ Partial Class Form1
     Friend WithEvents Label36 As System.Windows.Forms.Label
     Friend WithEvents Label37 As System.Windows.Forms.Label
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents Tp5 As System.Windows.Forms.TabPage
-    Friend WithEvents Reportes As System.Windows.Forms.TabControl
-    Friend WithEvents Reporte_General As System.Windows.Forms.TabPage
-    Friend WithEvents Reporte_Cabanas As System.Windows.Forms.TabPage
-    Friend WithEvents Tp4 As System.Windows.Forms.TabPage
-    Friend WithEvents FlowLayoutPanel3 As System.Windows.Forms.FlowLayoutPanel
-    Friend WithEvents Tp3 As System.Windows.Forms.TabPage
     Friend WithEvents Tp2 As System.Windows.Forms.TabPage
     Friend WithEvents Tc1_1 As System.Windows.Forms.TabControl
     Friend WithEvents Reservacion_Crear As System.Windows.Forms.TabPage
@@ -3825,27 +3671,6 @@ Partial Class Form1
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents Tc1 As System.Windows.Forms.TabControl
-    Friend WithEvents Panel15 As System.Windows.Forms.Panel
-    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
-    Friend WithEvents Label48 As System.Windows.Forms.Label
-    Friend WithEvents Label49 As System.Windows.Forms.Label
-    Friend WithEvents Label50 As System.Windows.Forms.Label
-    Friend WithEvents Panel2 As System.Windows.Forms.Panel
-    Friend WithEvents ComboBox5 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox6 As System.Windows.Forms.ComboBox
-    Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
-    Friend WithEvents Label41 As System.Windows.Forms.Label
-    Friend WithEvents Label42 As System.Windows.Forms.Label
-    Friend WithEvents Label43 As System.Windows.Forms.Label
-    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
-    Friend WithEvents DataGridViewTextBoxColumn1 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn2 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn3 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn4 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn5 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn6 As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn7 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Panel17 As System.Windows.Forms.Panel
     Friend WithEvents Label34 As System.Windows.Forms.Label
     Friend WithEvents Label33 As System.Windows.Forms.Label
@@ -3895,12 +3720,6 @@ Partial Class Form1
     Friend WithEvents Panel8 As System.Windows.Forms.Panel
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Label14 As System.Windows.Forms.Label
-    Friend WithEvents Label47 As System.Windows.Forms.Label
-    Friend WithEvents Panel14 As System.Windows.Forms.Panel
-    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
-    Friend WithEvents Label44 As System.Windows.Forms.Label
-    Friend WithEvents Label45 As System.Windows.Forms.Label
-    Friend WithEvents Label46 As System.Windows.Forms.Label
     Friend WithEvents Panel19 As System.Windows.Forms.Panel
     Friend WithEvents Label51 As System.Windows.Forms.Label
     Friend WithEvents Label52 As System.Windows.Forms.Label
@@ -4050,5 +3869,37 @@ Partial Class Form1
     Friend WithEvents Panel54 As System.Windows.Forms.Panel
     Friend WithEvents Label136 As System.Windows.Forms.Label
     Friend WithEvents Label137 As System.Windows.Forms.Label
+    Friend WithEvents Panel55 As System.Windows.Forms.Panel
+    Friend WithEvents ComboBox7 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label138 As System.Windows.Forms.Label
+    Friend WithEvents Panel56 As System.Windows.Forms.Panel
+    Friend WithEvents DateTimePicker3 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Label139 As System.Windows.Forms.Label
+    Friend WithEvents Menu As System.Windows.Forms.MenuStrip
+    Friend WithEvents ArchivoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BloquearToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SalirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ReservaciónToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ConsultarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CrearToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EditarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CancelarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ReportesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents IngresosEgresosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CabañasToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents IngresosDelDiaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents IngresosPorPeriodoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents IngresosPorCabañaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ConfiguraciónToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MonedaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ModificarTasaDeCambioToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CabañasToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PreciosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents CancelarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ClientesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Tp3 As System.Windows.Forms.TabPage
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Tp4 As System.Windows.Forms.TabPage
 
 End Class
